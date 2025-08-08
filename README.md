@@ -1,8 +1,8 @@
 # Portfolio Analytics Dashboard
 
 ## Live Link
-- **Live Frontend:** link  
-- **Live Backend API:** link
+- **Live Frontend:** [https://portfolio-analytics-dashboard-iota.vercel.app/](https://portfolio-analytics-dashboard-iota.vercel.app/)
+- **Live Backend API:** [https://portfolio-dashboard-j2k1.onrender.com/](https://portfolio-dashboard-j2k1.onrender.com/)
 
 ---
 
@@ -78,48 +78,6 @@
   ```env
   VITE_API_BASE_URL=https://your-deployed-api.com
   ```
-
----
-
-## API Reference
-
-**Base URL:** `/api/portfolio`
-
-### `GET /holdings`
-Returns array of holdings:
-```json
-{
-  symbol, name, quantity, avgPrice, currentPrice,
-  sector, marketCap, value, gainLoss, gainLossPercent
-}
-```
-
-### `GET /allocation`
-Returns:
-```json
-{
-  bySector: { [sector]: { value, percentage } },
-  byMarketCap: { [cap]: { value, percentage } }
-}
-```
-
-### `GET /performance`
-Returns:
-```json
-{
-  timeline: [{ date, portfolio, nifty50, gold }],
-  returns: { portfolio, nifty50, gold }
-}
-```
-
-### `GET /summary`
-Returns:
-```json
-{
-  totalValue, totalInvested, totalGainLoss, totalGainLossPercent,
-  topPerformer, worstPerformer, diversificationScore, riskLevel
-}
-```
 
 ---
 

@@ -92,4 +92,4 @@
 - **1m/3m/1y Returns** = `((latest − closestToTarget) ÷ closestToTarget) × 100` per series
 
 ---
-on boilerplate and UI wiring by approximately 60–70%, allowing more focus on correctness and robustness during iteration
+

@@ -92,23 +92,4 @@
 - **1m/3m/1y Returns** = `((latest − closestToTarget) ÷ closestToTarget) × 100` per series
 
 ---
-
-## AI Usage Disclosure
-
-**Tool Used:** Cursor (AI pair‑programming inside IDE)
-
-### AI-Generated (Reviewed/Edited by Me)
-- Component scaffolds and most JSX + Tailwind structure across the dashboard (Overview, Allocation, Performance, Holdings, TopPerformers)  
-- Recharts configurations (LineChart, PieChart, BarChart) including ResponsiveContainer, axes, legends, and initial tooltip scaffolds  
-- API service boilerplate, including env‑based API origin pattern  
-- Inline comments and calculation docs, plus the initial README draft and structure  
-- Common refactors for responsiveness, loading/error states, and animation patterns with Framer Motion
-
-### Manual Focus
-- Validating/adapting AI output to exactly match the assignment spec and data shapes  
-- Domain calculations and data transformation edge cases; defensive coding and error semantics  
-- Finalizing API contracts and wiring; polishing tooltips to show exact values and percentages  
-- UX details and consistency across sections
-
-### Productivity Impact
-- AI reduced time spent on boilerplate and UI wiring by approximately 60–70%, allowing more focus on correctness and robustness during iteration
+on boilerplate and UI wiring by approximately 60–70%, allowing more focus on correctness and robustness during iteration
